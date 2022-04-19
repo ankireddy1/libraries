@@ -12,7 +12,6 @@ def newDeploy()
 }
 def newTest()
 {
-  git "${repo}"
   sh 'java -jar testing.jar'
 }
   
